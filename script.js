@@ -1,1 +1,1 @@
-const content= document.GetElementByIdtById('content')
+const content = document.GetElementByIdtById('content')
