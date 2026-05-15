@@ -1,7 +1,7 @@
 // variables
 let screenWidth = window.innerWidth;
 let screenHeight = window.innerHeight;
-const content = document.GetElementById('content');
+const content = document.getElementById('content');
 
 // width > height?
 if (screenWidth > screenHeight) {
