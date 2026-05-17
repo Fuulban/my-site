@@ -12,11 +12,11 @@ let screenWidth = window.innerWidth;
 // main code
 setInterval(() => {
   if (screenWidth > screenHeight) {
-    htmlContent.innerHTML = '<table cellspacing="50"><tr><td><h1>Привет!</h1><p>Эта страничка для обучения и теста.</p><div style="height: 0fr;"></div></td><td><h1>С помощью этой страницы мы</h1><p>• Обучаем новичков базовой разметке<br>• Стилизуем сайт через CSS<br>• Добавляем контент страницы через JS</p><div style="height: 0fr;"></div></td></tr></table>';
+    htmlContent.innerHTML = '<table cellspacing="50"><tr><td><h1>Привет!</h1><p>Эта страничка для обучения и теста.</p><div style="height: 0fr;"></div></td><td><h1>С помощью этой страницы мы</h1><p>• Обучаем новичков базовой разметке на HTML<br>• Стилизуем сайт через CSS<br>• Добавляем контент страницы через JS</p><div style="height: 0fr;"></div></td></tr></table>';
   }
 
   if (screenWidth < screenHeight) {
-    htmlContent.innerHTML = '<p>Извините, ещё не готово</p>';
+    htmlContent.innerHTML = '<h1>Привет!</h1><p>Эта страничка для обучения и теста.</p><hr><h1>С помощью этой страницы мы</h1><p> • Обучаем новичков базовой разметке на HTML<br> • Стилизуем сайт через CSS<br> • Добавляем контент страницы через JS</p>';
   }
 
   screenWidth = window.innerWidth;
