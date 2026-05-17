@@ -19,5 +19,5 @@ while (true) {
     htmlContent.innerHTML = '<p>Извините, ещё не готово</p>';
   }
 
-  setTimeout(() => {;;}, 250);
+  setTimeout(() => {console.log('Завершена пауза 250');}, 250);
 }
