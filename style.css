@@ -1,11 +1,11 @@
 body {
   background: #111111;
   color: #FFFFFF;
-  font-family: sans-serif;
+  font-family: system-ui, Arial, sans-serif;
   padding: 20px;
 }
 
 table {
   wight: 100%;
-  min-height: 100%
+  min-height: 100%;
 }
