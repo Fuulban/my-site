@@ -11,4 +11,5 @@ let screenWidth = window.innerWidth;
 
 // main code
 if (screenWidth > screenHeight) {
-  htmlContent.innerHTML = '
+  htmlContent.innerHTML = '<table cellspacing="50"><tr><td><h1>Привет!</h1><p>Эта страничка для обучения и теста.</p></td><td><h1>С помощью этой страницы мы</h1><p> • Обучаем новичков базовой разметке<br> • Стилизовываем сайт через CSS<br> • Добавляем контент страницы через JS<p><td><tr><table>'
+}
