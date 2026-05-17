@@ -8,11 +8,11 @@ body {
 table {
   width: 100%;
   min-height: 100%;
-  border: 2px solid white;
+  border: 1px solid white;
   border-radius: 16px;
 }
 
 td, tr {
-  border: 1px solid grey;
+  border: 1px solid white;
   border-radius: 16px;
 }
