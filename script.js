@@ -10,7 +10,7 @@ let screenWidth = window.innerWidth;
 // no function
 
 // main code
-while (true) {
+setInterval(() => {
   if (screenWidth > screenHeight) {
     htmlContent.innerHTML = '<table cellspacing="50"><tr><td><h1>Привет!</h1><p>Эта страничка для обучения и теста.</p><div style="height: 0fr;"></div></td><td><h1>С помощью этой страницы мы</h1><p>• Обучаем новичков базовой разметке<br>• Стилизуем сайт через CSS<br>• Добавляем контент страницы через JS</p><div style="height: 0fr;"></div></td></tr></table>';
   }
@@ -19,5 +19,6 @@ while (true) {
     htmlContent.innerHTML = '<p>Извините, ещё не готово</p>';
   }
 
-  setTimeout(() => {console.log('Завершена пауза 250');}, 250);
-}
+  screenWidth = window.innerWidth
+  screenHeight = window.innerHeight
+}, 250)
