@@ -8,4 +8,10 @@ body {
 table {
   wight: 100%;
   min-height: 100%;
+  border: 2px solid white;
+  border-radius: 16px
+}
+
+td {
+  border: 2px solid white;
 }
