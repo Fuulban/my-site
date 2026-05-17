@@ -15,8 +15,7 @@ table {
   overflow: hidden;
 }
 
-td, th {
+td, tr {
   padding: 12px 15px;
-  border-right: 1px solid white;
-  border-bottom: 1px solid white;
+  border: 1px solid grey;
 }
