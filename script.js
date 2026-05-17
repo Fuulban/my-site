@@ -2,7 +2,7 @@
 alert('Сайт тестовый, и предназначен исключительно для примера');
 
 // const/variable
-const htmlContent = document.getElementById('content'); // Исправлено: getElementById (строчные буквы)
+const htmlContent = document.getElementById('content');
 let screenHeight = window.innerHeight;
 let screenWidth = window.innerWidth;
 
