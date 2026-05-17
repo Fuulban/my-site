@@ -19,6 +19,6 @@ setInterval(() => {
     htmlContent.innerHTML = '<p>Извините, ещё не готово</p>';
   }
 
-  screenWidth = window.innerWidth
-  screenHeight = window.innerHeight
+  screenWidth = window.innerWidth;
+  screenHeight = window.innerHeight;
 }, 250)
