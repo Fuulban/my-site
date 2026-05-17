@@ -21,4 +21,4 @@ setInterval(() => {
 
   screenWidth = window.innerWidth;
   screenHeight = window.innerHeight;
-}, 250)
+}, 1)
