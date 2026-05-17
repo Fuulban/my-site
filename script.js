@@ -16,6 +16,6 @@ while (true) {
   }
 
   if (screenWidth < screenHeight) {
-    htmlContent.innerHTML
+    htmlContent.innerHTML = '<p>Извините, ещё не готово</p>'
   }
 }
