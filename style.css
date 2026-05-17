@@ -7,15 +7,11 @@ body {
 
 table {
   width: 100%;
-  min-height: 100%
+  min-height: 100%;
   border: 2px solid white;
-  border-radius: 10px;
-  border-spacing: 0;
-  border-collapse: separate;
-  overflow: hidden;
+  border-radius: 16px;
 }
 
 td, tr {
-  padding: 12px 15px;
   border: 1px solid grey;
 }
