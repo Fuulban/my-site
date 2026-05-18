@@ -13,6 +13,6 @@ table {
 td, tr {
   border: 1px solid white;
   border-radius: 16px;
-  padding: 50px;
+  padding: 100%;
   margin: 4px;
 }
